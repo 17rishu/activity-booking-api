@@ -39,15 +39,7 @@ cd activity-booking-app
 npm install
 ```
 
-3. Create a `.env` file in the root directory with the following variables:
-```
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/activity-booking
-JWT_SECRET=your_jwt_secret_key_here
-JWT_EXPIRE=24h
-```
-
-4. Start the development server:
+3. Start the development server:
 ```bash
 npm run dev
 ```
